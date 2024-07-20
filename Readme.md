@@ -368,7 +368,9 @@ $ ssh root@localhost
 ```
 </details>
 
-## How to Clone Locally and use git properly
+## How to Clone Locally and use Git properly
+
+change to the directory you want to clone the repo to, and then run the following command:
 
 ```bash
 $ git clone git@github.com:Frank0415/FTW.git
