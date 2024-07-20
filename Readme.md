@@ -376,6 +376,11 @@ change to the directory you want to clone the repo to, and then run the followin
 $ git clone git@github.com:Frank0415/FTW.git
 ```
 
+You can play this game [Learn Git branching](https://learngitbranching.js.org), and you will learn more than the basics in one hour.
+
+Naming conventions:
+[Commit naming conventions](https://www.conventionalcommits.org/en/v1.0.0/)
+[Branching Conventions](https://medium.com/@abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534)
 
 <details close>
     <summary>Intro to Git</summary>
