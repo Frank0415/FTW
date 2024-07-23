@@ -31,7 +31,7 @@ git config --global user.name "your real name in pinyin"
 git config --global user.email "<your jaccount>@sjtu.edu.cn"
 ```
 
-Generally you will not encounter any problems if you follow the instructions on the website, but if you do, you can refer to the following steps, which is a clone of the SilverFocs guide on setting up.
+Generally you will not encounter any problems if you follow the instructions on the website, but if you do, you can refer to the following steps, which is a clone of the guide on setting up.
 
 
 <details close>
@@ -39,7 +39,7 @@ Generally you will not encounter any problems if you follow the instructions on 
 
 ## Secure Shell
 
-Using the Secure Shell (SSH) protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect to FOCS git server easily and securely. This tutorial will help you generate your own SSH key. To learn more about SSH authentication, refer to [About SSH](https://help.github.com/en/github/authenticating-to-github/about-ssh).
+Using the Secure Shell (SSH) protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect to git server easily and securely. This tutorial will help you generate your own SSH key. To learn more about SSH authentication, refer to [About SSH](https://help.github.com/en/github/authenticating-to-github/about-ssh).
 
 ### Step 1: Preparation
 
@@ -109,7 +109,7 @@ $ ls -al
 
 You should be able to find `id_ed25519` and `id_ed25519.pub`. Open the file `id_ed25519.pub` in a text editor, or type `cat id_ed25519.pub` in the terminal.
 
-Then open [FOCS gitea](https://focs.ji.sjtu.edu.cn/git) in your browser. Press the button on the top right corner, then go to "Settings". Go to "SSH / GPG Keys". 
+Then open ^^^ in your browser. Press the button on the top right corner, then go to "Settings". Go to "SSH / GPG Keys". 
 
 In the SSH Key section, press "Add Key". Paste the content your `id_rsa.pub` file in the box below. If you succeed, the Key name will be generated automatically. You should copy and paste something in the form:
 ```
@@ -226,7 +226,7 @@ $ ssh root@localhost
 
 ## Git installation and setup
 
-For information about git, please refer to SilverFOCS Introduction to git.
+For information about git, please refer to Introduction to git.
 
 ### Installation
 
